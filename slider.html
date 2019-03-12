@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css"><!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="slider.css"><!-- Custom CSS -->
+</head>
+<body>
+	<div class="wrapper" id="main"><!-- Wrapper -->
+		<div class="container"> <!-- container -->
+			
+
+
+			<div class="statistics page">
+					<div class="statistics-details center">
+						<div class="stat-slider relative">
+						<a href="javascript:void(0);" onclick="return clickNxt();"><img class="stat-next next" src="images/next.png"></a>
+						<a href="javascript:void(0);" onclick="return clickPrev();"><img class="stat-prev prev" src="images/prev.png"></a>
+							<div id='slider-container' class="slider-wrapper relative">
+								<div id="slide1" class="slide left" style:"top:0px">
+									<div class="slide-wrapper relative">
+										<div class="image-back" style="background-image:url('images/slide1.jpg');">
+											<div class="overlay inactive-overlay">
+												<div class="stat-percent">
+													97<span>%</span>
+													<p class='stat-text'>Lorem ipsum dolar sit.<br /><em>(Lorem Ipsum, December, 2013)</em></p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slide2" class="slide leftmid" style:"top:0px">
+									<div class="slide-wrapper relative">
+										<div class="image-back" style="background-image:url('images/slide2.jpg');">
+											<div class="overlay inactive-overlay">
+												<div class="stat-percent">
+													83<span>%</span>
+													<p class='stat-text'>Lorem ipsum</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slide3" class="slide mid" style:"top:0px">
+									<div class="slide-wrapper relative">
+										<div class="image-back" style="background-image:url('images/slide3.jpg');">
+											<div class="overlay active-overlay">
+												<div class="stat-percent active-percent">
+													78<span>%</span>
+													<p class='stat-text show-text'>lorem ipsum</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slide4" class="slide rightmid" style:"top:0px">
+									<div class="slide-wrapper relative">
+										<div class="image-back" style="background-image:url('images/slide4.jpg');">
+											<div class="overlay inactive-overlay">
+												<div class="stat-percent">
+													70<span>%</span>
+													<p class='stat-text'>lorem ipsum</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div id="slide5" class="slide right" style:"top:0px">
+									<div class="slide-wrapper relative">
+										<div class="image-back" style="background-image:url('images/slide5.jpg');">
+											<div class="overlay inactive-overlay">
+												<div class="stat-percent">
+													77<span>%</span>
+													<p class='stat-text'>lorem ipsum</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="stat-slider-dot">
+							<ul>
+								<li><img class='thumbs slide1 left' src="images/dot-inactive.png"></li>
+								<li><img class='thumbs slide2 leftmid' src="images/dot-inactive.png"></li>
+								<li><img class='thumbs slide3 mid' src="images/dot-active.png"></li>
+								<li><img class='thumbs slide4 rightmid' src="images/dot-inactive.png"></li>
+								<li><img class='thumbs slide5 right' src="images/dot-inactive.png"></li>
+							</ul>
+						</div>
+					</div>
+			</div>
+
+		</div><!-- /container -->
+	</div><!-- /Wrapper -->
+
+
+	<script type="text/javascript" src="jquery.js"></script> 
+	<script type="text/javascript" src="slider.js"></script>
+</body>
+</html>
